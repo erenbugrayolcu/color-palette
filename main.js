@@ -48,7 +48,6 @@ function generateColorPalette(){
         li.addEventListener('click', (e) => {
             let targetInput = currentElem.querySelector('input[name="color"]');
             targetInput.select();
-            <input type="text" onfocus="blur();" />
             document.execCommand('copy');
             notification('Color <b>' + targetInput.value  + '</b> copied to your clipboard');
         });
