@@ -47,6 +47,7 @@ function generateColorPalette(){
 
         li.addEventListener('click', (e) => {
             let targetInput = currentElem.querySelector('input[name="color"]');
+            readonly="readonly";
             targetInput.select();
             document.execCommand('copy');
             notification('Color <b>' + targetInput.value  + '</b> copied to your clipboard');
