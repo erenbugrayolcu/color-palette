@@ -137,13 +137,9 @@ ul.color-palette li .text {
   color: #0C1226;
 }
 
-.shortcut-text .mobile-copy {
-  visibility: hidden;
-  opacity: 0;
-}
-
-@media (max-width: 375px) {
+@media (max-width: 525px) {
   body {
+    text-align: center;
     margin-top: 150px;
   }
   .alert {
@@ -172,11 +168,10 @@ ul.color-palette li .text {
     font-size: 34px;
     font-weight: bold;
     color: #0C1226;
-    text-align: center;
-    place-items: center;
+    margin-left: -10px;
   }
   ul.color-palette li {
-    margin: 0 15px;
+    margin: 0 1px;
     width: 100px;
     height: 150px;
     background: #fff;
@@ -244,27 +239,10 @@ ul.color-palette li .text {
     background: #fff;
     padding: 9px 10px;
     border-radius: 25px;
-    font-size: 30px;
+    font-size: 16px;
     color: #0C1226;
     text-align: center;
     margin-left: 0px;
-    visibility: hidden;
-    opacity: 1;
-  }
-  .shortcut-text .mobile-copy {
-    visibility: visible;
-    opacity: 1;
-    background: #fff;
-    padding: 9px 10px;
-    border-radius: 25px;
-    font-size: 30px;
-    color: #0C1226;
-    text-align: center;
-    margin-left: -170px;
-  }
-  .pressC {
-    visibility: hidden;
-    opacity: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
