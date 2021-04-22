@@ -189,6 +189,10 @@ ul.color-palette li .text {
     top: 0;
     -webkit-transition: 300ms all;
     transition: 300ms all;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   ul.color-palette li:hover {
     -webkit-box-shadow: 0 15px 42px -12px #A8B2C3;
@@ -196,11 +200,19 @@ ul.color-palette li .text {
     top: -10px;
   }
   ul.color-palette li input {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     position: absolute;
     opacity: 0;
     left: -99999px;
   }
   ul.color-palette li .color {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     width: 100%;
     height: 250px;
     background: var(--color);
@@ -208,6 +220,10 @@ ul.color-palette li .text {
     margin-bottom: 20px;
   }
   ul.color-palette li .text {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     text-align: center;
     font-size: 19px;
     font-weight: bold;
