@@ -50,7 +50,6 @@ function generateColorPalette(){
             targetInput.select();
             document.execCommand('copy');
             notification('Color <b>' + targetInput.value  + '</b> copied to your clipboard');
-            <input type="submit"/>;
         });
 
     }
