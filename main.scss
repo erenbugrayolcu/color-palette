@@ -170,6 +170,7 @@ ul.color-palette{
         position: relative;
         top: 0;
         transition: 300ms all;
+        user-select: none;
 
         &:hover{
             box-shadow: 0 15px 42px -12px #A8B2C3;
@@ -177,11 +178,13 @@ ul.color-palette{
         }
 
             input{
+                user-select: none;
                 position: absolute;
                 opacity: 0;
                 left: -99999px;
             }
             .color{
+                user-select: none;
                 width: 100%;
                 height: 250px;
                 background: var(--color);
@@ -189,6 +192,7 @@ ul.color-palette{
                 margin-bottom: 20px;
             }
             .text{
+                user-select: none;
                 text-align: center;
                 font-size: 19px;
                 font-weight: bold;
